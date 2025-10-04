@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: #d4af37;
+  padding: 15px 30px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.logo {
+  font-family: 'Cinzel', serif;
+  font-size: 1.8rem;
+}
+
+.nav a {
+  margin-left: 20px;
+  color: #d4af37;
+  text-decoration: none;
+  font-family: 'Cinzel', serif;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: white;
+}

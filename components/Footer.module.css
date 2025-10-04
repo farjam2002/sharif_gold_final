@@ -1,0 +1,9 @@
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: #d4af37;
+  font-family: 'Cinzel', serif;
+  border-top: 1px solid rgba(212, 175, 55, 0.3);
+  opacity: 0.8;
+}

@@ -1,0 +1,1 @@
+export default function Earrings(){return (<div><h1>Earrings</h1><p>Design your earrings here</p></div>);}

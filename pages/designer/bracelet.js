@@ -1,0 +1,1 @@
+export default function Bracelet(){return (<div><h1>Bracelet</h1><p>Design your bracelet here</p></div>);}

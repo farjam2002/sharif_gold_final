@@ -1,0 +1,1 @@
+export default function Ring(){return (<div><h1>Ring</h1><p>Design your ring here</p></div>);}

@@ -1,0 +1,39 @@
+.container {
+  background-color: black;
+  color: #d4af37;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.uploadSection {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.uploadInput {
+  margin-bottom: 10px;
+}
+
+.uploadButton {
+  background-color: transparent;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.uploadButton:hover {
+  background-color: #d4af37;
+  color: black;
+}
+
+.preview {
+  text-align: center;
+  margin: 40px 0;
+}
