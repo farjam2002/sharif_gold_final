@@ -1,19 +1,18 @@
 export default function Home() {
   return (
-    <div style={{ textAlign: 'center', padding: '50px', fontFamily: 'Arial' }}>
+    <div style={{ textAlign: 'center', padding: '50px' }}>
       <h1 style={{ fontSize: '3em', marginBottom: '10px' }}>Sharif Gold</h1>
-      <p style={{ fontSize: '1.2em', color: '#555', marginBottom: '40px' }}>
+      <p style={{ fontSize: '1.2em', marginBottom: '40px' }}>
         Luxury AI-powered Jewelry Design Platform
       </p>
 
-      {/* بخش دسته‌بندی‌ها */}
       <div 
-        style={{ 
-          display: 'grid', 
-          gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', 
-          gap: '20px', 
-          maxWidth: '800px', 
-          margin: '0 auto' 
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+          gap: '20px',
+          maxWidth: '800px',
+          margin: '0 auto'
         }}
       >
         <a href="/designer/necklace" style={cardStyle}>
@@ -40,15 +39,14 @@ export default function Home() {
   );
 }
 
-// استایل کارت‌ها
 const cardStyle = {
   display: 'block',
   padding: '20px',
-  backgroundColor: '#f8f8f8',
+  backgroundColor: '#1c1c1c', // تیره
   borderRadius: '8px',
   textDecoration: 'none',
-  color: 'black',
-  boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+  color: 'gold', // طلایی
+  boxShadow: '0 4px 6px rgba(0,0,0,0.4)',
   transition: 'transform 0.2s ease, box-shadow 0.2s ease',
   textAlign: 'center'
 };
